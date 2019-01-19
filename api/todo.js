@@ -7,4 +7,4 @@ const TodoSchema = new mongoose.Schema({
     }
 });
 
-mongoose.model('Todo', TodoSchema); // deixa o model disponivel para toda a aplicação
+mongoose.model('Todo', TodoSchema);

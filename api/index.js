@@ -23,7 +23,7 @@ app.post('/todos', async (req, res) => {
 
 app.delete('/todos', async (req, res) => {
     const id = req.body._id;
-    const todo = await Todo.findByIdAndRemove(id)
+    const todo = await Todo.findByIdAndRemove(id);
     return res.json(todo);
 });
 
